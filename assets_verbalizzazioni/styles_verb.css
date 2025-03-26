@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-image: url("background_ufficiale.png");
+    color: white;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.titolo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 32px;
+    margin: 0;
+}
+.titolo:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.user-info {
+    font-size: 14px;
+}
+
+.logo img {
+    height: max-content;
+}
+
+.logout {
+    background-color: #f0a500;
+    border: orangered;
+    padding: 8px 15px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+    top: 2.5cm;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.section {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.section a {
+    text-decoration: none;
+}
+.section h2 {
+    color: #2266aa;
+}
+.section:last-child {
+    border-bottom: none;
+}
+.section h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer {
+    color: #777;
+    text-align: center;
+    position: relative;
+    bottom: -60px;
+    padding: 20px;
+    width: 90%;
+}
